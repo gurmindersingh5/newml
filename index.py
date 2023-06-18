@@ -8,4 +8,4 @@ app.config['SECRET_KEY'] = "lovely17"
 
 @app.route('/')
 def home():
-    return Response("welcome")
+    return "welcome"
